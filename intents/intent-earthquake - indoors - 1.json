@@ -1,0 +1,39 @@
+{
+  "id": "a7a9f156-43ff-45aa-a848-4b6b4a044fea",
+  "parentId": "788b14be-6365-494e-944f-98679241c5b6",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - indoors - 1",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-indoors-1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-indoors-1-more",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-indoors-1-followup-2",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "DROP to the ground; take COVER by getting under a sturdy table or other piece of furniture; and HOLD ON until the shaking stops. If there isn’t a table or desk near you, cover your face and head with your arms and crouch in an inside corner of the building."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094011,
+  "fallbackIntent": false,
+  "events": []
+}

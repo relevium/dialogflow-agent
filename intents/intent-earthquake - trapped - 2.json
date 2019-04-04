@@ -1,0 +1,39 @@
+{
+  "id": "fd158c24-c6b6-46a6-a4f3-1a97be14862c",
+  "parentId": "1266128a-3c00-4846-aa4a-dfed3dd7aa39",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - trapped - 2",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-trapped-1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-trapped-more.intent-earthquake-trapped-1-more",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-trapped-2-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cover your mouth with a handkerchief or clothing."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094740,
+  "fallbackIntent": false,
+  "events": []
+}

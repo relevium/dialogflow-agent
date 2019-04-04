@@ -1,0 +1,33 @@
+{
+  "id": "093770ad-5055-4d24-b5c9-6312ffc47249",
+  "parentId": "fd158c24-c6b6-46a6-a4f3-1a97be14862c",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - trapped - 3",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-trapped-2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-trapped-more.intent-earthquake-trapped-1-more.intent-earthquake-trapped-2-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Tap on a pipe or wall so rescuers can locate you. Use a whistle if one is available. Shout only as a last resort. Shouting can cause you to inhale dangerous amounts of dust."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094781,
+  "fallbackIntent": false,
+  "events": []
+}

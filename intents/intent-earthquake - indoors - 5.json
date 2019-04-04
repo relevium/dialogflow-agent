@@ -1,0 +1,33 @@
+{
+  "id": "5a62c4a8-3bdb-43dc-bad2-26cfb8277688",
+  "parentId": "4c1ad253-ed04-488d-baff-486409606bcc",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - indoors - 5",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-indoors-4-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-indoors-1-more.intent-earthquake-indoors-1-more.intent-earthquake-indoors-2-more.intent-earthquake-indoors-3-more.intent-earthquake-indoors-4-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Be aware that the electricity may go out or the sprinkler systems or fire alarms may turn on."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094169,
+  "fallbackIntent": false,
+  "events": []
+}

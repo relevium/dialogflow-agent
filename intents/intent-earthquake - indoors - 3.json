@@ -1,0 +1,39 @@
+{
+  "id": "5c8b65fa-5389-4107-9011-aa64ff8f1477",
+  "parentId": "d3336346-3ed3-4a0f-b034-14ba1ee86e7c",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - indoors - 3",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-indoors-2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-indoors-1-more.intent-earthquake-indoors-1-more.intent-earthquake-indoors-2-more",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-indoors-3-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Stay inside until the shaking stops and it is safe to go outside. Do not exit a building during the shaking. Research has shown that most injuries occur when people inside buildings attempt to move to a different location inside the building or try to leave."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094098,
+  "fallbackIntent": false,
+  "events": []
+}

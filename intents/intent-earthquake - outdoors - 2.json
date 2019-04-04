@@ -1,0 +1,33 @@
+{
+  "id": "b3883f20-d192-4d6c-8ea2-319de8a6a217",
+  "parentId": "ca12ec53-9c4c-461b-a45c-204eaa7a3e54",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - outdoors - 2",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-outdoors-1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-outdoors-more.intent-earthquake-outdoors-1-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Once in the open, stay there until the shaking stops. The greatest danger exists directly outside buildings, at exits and alongside exterior walls."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543095099,
+  "fallbackIntent": false,
+  "events": []
+}

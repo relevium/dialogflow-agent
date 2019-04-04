@@ -1,0 +1,39 @@
+{
+  "id": "ca12ec53-9c4c-461b-a45c-204eaa7a3e54",
+  "parentId": "f43be777-5557-4b9b-95b5-4163433be11e",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - outdoors - 1",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-outdoors-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-outdoors-more",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-outdoors-1-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Move away from buildings, streetlights, and utility wires."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543095022,
+  "fallbackIntent": false,
+  "events": []
+}

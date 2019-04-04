@@ -1,0 +1,94 @@
+[
+  {
+    "id": "86528c12-7139-43fd-a745-26d2a0e2dbb6",
+    "data": [
+      {
+        "text": "i am in ",
+        "userDefined": false
+      },
+      {
+        "text": "earthquake",
+        "alias": "disaster-abstract",
+        "meta": "@disaster-abstract",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542993700
+  },
+  {
+    "id": "56046b20-de18-496f-98e6-ac73b8ebedff",
+    "data": [
+      {
+        "text": "earthquake",
+        "alias": "disaster-abstract",
+        "meta": "@disaster-abstract",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542993700
+  },
+  {
+    "id": "d9946f2a-89d8-47e2-99ec-955399657c16",
+    "data": [
+      {
+        "text": "i am in an ",
+        "userDefined": false
+      },
+      {
+        "text": "earthquake",
+        "alias": "disaster-abstract",
+        "meta": "@disaster-abstract",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542993700
+  },
+  {
+    "id": "41ff67e2-1cb5-42d7-b4a0-e76859201b7c",
+    "data": [
+      {
+        "text": "something disrupting the ground",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542991494
+  },
+  {
+    "id": "62f1cc73-5096-4c3d-a93b-91327ecda6e6",
+    "data": [
+      {
+        "text": "ground is shaking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542991494
+  },
+  {
+    "id": "d0acdd68-1d19-4f11-8ea8-3c5ccaa3f215",
+    "data": [
+      {
+        "text": "there is an ",
+        "userDefined": false
+      },
+      {
+        "text": "earthquake",
+        "alias": "disaster-abstract",
+        "meta": "@disaster-abstract",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542991494
+  }
+]

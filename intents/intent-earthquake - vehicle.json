@@ -1,0 +1,48 @@
+{
+  "id": "696b8f12-8662-4cb3-90ef-d425759ae87f",
+  "parentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - vehicle",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-vehicle-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ed9cb7e7-d070-4d45-bd9c-f98fac293c9f",
+          "required": false,
+          "dataType": "@disaster-earthquake-situation",
+          "name": "disaster-earthquake-situation",
+          "value": "$disaster-earthquake-situation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Stop as quickly as safety permits and stay in the vehicle. Avoid stopping near or under buildings, trees, overpasses, and utility wires."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543095396,
+  "fallbackIntent": false,
+  "events": []
+}

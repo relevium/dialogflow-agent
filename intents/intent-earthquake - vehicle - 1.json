@@ -1,0 +1,33 @@
+{
+  "id": "411e65f2-8dcd-4f4e-8faf-ebf65c97ce5f",
+  "parentId": "696b8f12-8662-4cb3-90ef-d425759ae87f",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - vehicle - 1",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-vehicle-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-vehicle-more",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Proceed cautiously once the earthquake has stopped. Avoid roads, bridges, or ramps that might have been damaged by the earthquake."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543095303,
+  "fallbackIntent": false,
+  "events": []
+}

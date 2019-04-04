@@ -1,0 +1,39 @@
+{
+  "id": "4c1ad253-ed04-488d-baff-486409606bcc",
+  "parentId": "5c8b65fa-5389-4107-9011-aa64ff8f1477",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - indoors - 4",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-indoors-3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-indoors-1-more.intent-earthquake-indoors-1-more.intent-earthquake-indoors-2-more.intent-earthquake-indoors-3-more",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-indoors-4-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "DO NOT use the elevators."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094132,
+  "fallbackIntent": false,
+  "events": []
+}

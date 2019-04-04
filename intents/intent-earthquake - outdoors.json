@@ -1,0 +1,47 @@
+{
+  "id": "f43be777-5557-4b9b-95b5-4163433be11e",
+  "parentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - outdoors",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-outdoors-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "64f623db-907d-4c4d-b3f0-89f5341ed385",
+          "dataType": "@disaster-earthquake-situation",
+          "name": "disaster-earthquake-situation",
+          "value": "$disaster-earthquake-situation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Stay there."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094958,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "d3336346-3ed3-4a0f-b034-14ba1ee86e7c",
+  "parentId": "a7a9f156-43ff-45aa-a848-4b6b4a044fea",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - indoors - 2",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-indoors-1-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-indoors-1-more.intent-earthquake-indoors-1-more",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-indoors-2-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do not use a doorway except if you know it is a strongly supported, load-bearing doorway and it is close to you. Many inside doorways are lightly constructed and do not offer protection."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094047,
+  "fallbackIntent": false,
+  "events": []
+}

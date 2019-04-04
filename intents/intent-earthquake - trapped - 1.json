@@ -1,0 +1,39 @@
+{
+  "id": "1266128a-3c00-4846-aa4a-dfed3dd7aa39",
+  "parentId": "b2f945a5-34cc-419d-af76-57cff36ea580",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - trapped - 1",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-trapped-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom.intent-earthquake-trapped-more",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-trapped-1-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do not move around or kick up dust."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543094696,
+  "fallbackIntent": false,
+  "events": []
+}

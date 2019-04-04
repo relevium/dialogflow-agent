@@ -1,0 +1,52 @@
+{
+  "id": "b2f945a5-34cc-419d-af76-57cff36ea580",
+  "parentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "rootParentId": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake - trapped",
+  "auto": true,
+  "contexts": [
+    "intent-earthquake-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "intent-earthquake.intent-earthquake-custom",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-trapped-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "73a54c2e-89cd-46f5-8ff8-ef010c3b51f8",
+          "dataType": "@disaster-earthquake-situation",
+          "name": "disaster-earthquake-situation",
+          "value": "$disaster-earthquake-situation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Do not light a match.",
+            "Do not move around or kick up dust.",
+            "Cover your mouth with a handkerchief or clothing.",
+            "Tap on a pipe or wall so rescuers can locate you. Use a whistle if one is available. Shout only as a last resort. Shouting can cause you to inhale dangerous amounts of dust."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543093496,
+  "fallbackIntent": false,
+  "events": []
+}

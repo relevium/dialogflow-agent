@@ -1,0 +1,44 @@
+[
+  {
+    "value": "earthquake",
+    "synonyms": [
+      "ground shaking",
+      "earthquake",
+      "quake",
+      "temblor",
+      "tremblor"
+    ]
+  },
+  {
+    "value": "hurricane",
+    "synonyms": [
+      "hurricane",
+      "storm",
+      "violent wind",
+      "cyclone",
+      "tornado"
+    ]
+  },
+  {
+    "value": "shooting",
+    "synonyms": [
+      "shooting",
+      "armed",
+      "firing",
+      "blast",
+      "gunfire",
+      "shots",
+      "gun"
+    ]
+  },
+  {
+    "value": "fire",
+    "synonyms": [
+      "fire",
+      "arson",
+      "burning",
+      "blaze",
+      "wildfire"
+    ]
+  }
+]

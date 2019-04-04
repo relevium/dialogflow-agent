@@ -1,0 +1,44 @@
+{
+  "id": "75eb230b-d185-4971-8bfd-74c47066258b",
+  "name": "intent-earthquake",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "intent-earthquake-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1124add4-06f8-4976-a889-3486a049f57d",
+          "required": false,
+          "dataType": "@disaster-abstract",
+          "name": "disaster-abstract",
+          "value": "$disaster-abstract",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Describe you situation. Are you indoors, outdoors, in a moving vehicle or trapped under debris?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542993700,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "aab00924-3a69-43d4-99da-bd4100c526ff",
+    "data": [
+      {
+        "text": "trapped",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093496
+  },
+  {
+    "id": "c4ce142b-5d3f-4745-8dc2-d2b9d15701a3",
+    "data": [
+      {
+        "text": "we are ",
+        "userDefined": false
+      },
+      {
+        "text": "trying to get out",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093496
+  },
+  {
+    "id": "0be66cc6-6268-4eac-bea5-3bc89e7713af",
+    "data": [
+      {
+        "text": "i ",
+        "userDefined": false
+      },
+      {
+        "text": "cannot move",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093496
+  },
+  {
+    "id": "a801fc36-6707-459c-b08d-6d3c5483d267",
+    "data": [
+      {
+        "text": "i am ",
+        "userDefined": false
+      },
+      {
+        "text": "stuck",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093496
+  },
+  {
+    "id": "cd3f6d2d-10eb-480a-9244-440081db0034",
+    "data": [
+      {
+        "text": "i am ",
+        "userDefined": false
+      },
+      {
+        "text": "trapped",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093496
+  }
+]

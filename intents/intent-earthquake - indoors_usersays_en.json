@@ -1,0 +1,120 @@
+[
+  {
+    "id": "5546c9ab-5d61-4486-ab82-3b131dc5c05f",
+    "data": [
+      {
+        "text": "i am ",
+        "userDefined": false
+      },
+      {
+        "text": "inside",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093871
+  },
+  {
+    "id": "5ec0c07f-2855-47a2-9086-29cf7b5cf1d1",
+    "data": [
+      {
+        "text": "i am ",
+        "userDefined": false
+      },
+      {
+        "text": "indoor",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093871
+  },
+  {
+    "id": "1d9aa9dd-48ee-4e7b-8e6e-3363cdfb2464",
+    "data": [
+      {
+        "text": "indoors",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093871
+  },
+  {
+    "id": "374fefd7-6b74-4fd0-80fe-a61adf078347",
+    "data": [
+      {
+        "text": "indoor",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093871
+  },
+  {
+    "id": "785580a6-d380-4c29-923a-05089616b352",
+    "data": [
+      {
+        "text": "we are at ",
+        "userDefined": false
+      },
+      {
+        "text": "school",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093871
+  },
+  {
+    "id": "b79408a1-1803-4107-add9-c14bc92a3d3c",
+    "data": [
+      {
+        "text": "i am at ",
+        "userDefined": false
+      },
+      {
+        "text": "work",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093871
+  },
+  {
+    "id": "637142d4-c82a-4c63-9394-9b36979f1e12",
+    "data": [
+      {
+        "text": "i am ",
+        "userDefined": false
+      },
+      {
+        "text": "indoors",
+        "alias": "disaster-earthquake-situation",
+        "meta": "@disaster-earthquake-situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543093871
+  }
+]

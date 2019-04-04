@@ -1,0 +1,42 @@
+[
+  {
+    "value": "indoors",
+    "synonyms": [
+      "indoors",
+      "inside",
+      "house",
+      "work",
+      "home",
+      "school",
+      "indoor"
+    ]
+  },
+  {
+    "value": "outdoors",
+    "synonyms": [
+      "outdoors",
+      "outside",
+      "street",
+      "road",
+      "outdoor"
+    ]
+  },
+  {
+    "value": "vehicle",
+    "synonyms": [
+      "vehicle",
+      "car",
+      "bike",
+      "motorcycle"
+    ]
+  },
+  {
+    "value": "trapped",
+    "synonyms": [
+      "trapped",
+      "stuck",
+      "cannot move",
+      "exits blocked"
+    ]
+  }
+]
